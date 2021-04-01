@@ -1,0 +1,288 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(197, 212, 60);
+    overflow-x: hidden;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+nav ul {
+    padding: 20px 0 20px 0;
+}
+
+nav ul li {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#logo {
+    width: 350px;
+    height: 150px;
+    border: dashed 3px rgb(166, 179, 57);
+}
+
+.nota {
+    display: block;
+    margin: auto;
+}
+
+.logotipo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div {
+    min-height: 700px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div--div {
+    min-height: 700px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    padding: 0 5px 0 5px;
+    background-color: rgb(197, 212, 60);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(218, 238, 34, 0.8);
+}
+
+.titule {
+    text-align: right;
+    font-size: 90px;
+    padding-right: 68px;
+    color: #000000;
+    font-weight: 600;
+    transform: translateY(258%);
+}
+
+.secTitule {
+    text-align: left;
+    font-size: 78px;
+    padding-top: 300px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bg-color-nav {
+    background-color: white;
+}
+
+.bg-lol {
+    background-color: #f4f5f6;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#footer {
+  background: #1E1E24;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.redsocial {
+	text-decoration: none;
+}
+
+.main1 {
+    background-color: black;
+}
+
+.main2 {
+    background-color: rgb(96, 231, 84);
+}
+
+.and {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    background-color: rgb(0, 0, 0);
+}
+
+.titl {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    padding-top: 150px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.div-an {
+    min-height: 700px;
+    background-color: palegoldenrod;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titl--2 {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 40px;
+    padding-top: 85px;
+    margin-bottom: 150px;
+}
+
+.titl--3 {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 40px;
+    padding-top: 85px;
+}
+
+.title--2 {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 40px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+.titule--2 {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#local {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 black;
+}
+
+.bg-wai {
+    background-color: rgb(96, 231, 84);
+}
+
+.bg-lel {
+    background-color: rgb(197, 212, 60);
+}
+
+.bg-bl {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-pl {
+    background-color: palegoldenrod;
+}
+
+.cerveza {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 black;
+}
+
+.wave-l {
+    padding-bottom: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-toggler {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 215px 20px 215px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.socimed {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 0 10px;
+}
+
+.linkeaso {
+    text-decoration: none;
+    color: olive;
+}
+
+.linkeaso:hover {
+    color: orchid;
+    transition: .3s;
+}
+
+.pizzerveza--1 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.pizzerveza--2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.pizzerveza--1:hover {
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.pizzerveza--2:hover {
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.bg-calid {
+    background-color: palegreen;
+}
+
+.contactanos {
+    color: chartreuse;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 black;
+    border: none;
+}
+
+.contac {
+    color: black;
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.camb {
+    background-color: black;
+}
+
+.spann {
+    padding: 50px 0 50px 0;
+    margin-bottom: 50px;
+}
