@@ -41,8 +41,21 @@ nav ul li {
 }
 
 .div {
-    min-height: 700px;
+    padding-bottom: 300px;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+}
+
+.div-cv {
+    padding-bottom: 300px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+}
+
+.div-1 {
+    padding-bottom: 200px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -50,6 +63,7 @@ nav ul li {
     min-height: 700px;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
 }
 
 button {
@@ -66,20 +80,19 @@ button:hover {
 }
 
 .titule {
-    text-align: right;
-    font-size: 5rem;
-    padding-right: 68px;
+    font-size: 4rem;
     color: #000000;
     font-weight: 600;
-    transform: translateY(258%);
+    text-align: center;
+    padding-top: 250px;
 }
 
 .secTitule {
-    text-align: left;
+    text-align: center;
     font-size: 4rem;
     color: #ffffff;
     font-weight: 600;
-    transform: translateY(288%);
+    padding-top: 250px;
 }
 
 .bg-color-nav {
@@ -122,6 +135,7 @@ footer {
     text-align: center;
     font-size: 90px;
     background-color: rgb(0, 0, 0);
+    margin: 40px 0px 50px 0px;
 }
 
 .titl {
@@ -130,7 +144,7 @@ footer {
     font-size: 65px;
     padding-top: 150px;
     font-weight: 600;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .div-an {
@@ -139,12 +153,16 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
+.div-tam {
+    padding-bottom: 200px;
+    background-color: palegoldenrod;
+    font-family: 'Poppins', sans-serif;
+}
+
 .titl--2 {
     text-align: center;
     color: rgb(46, 42, 42);
     font-size: 40px;
-    padding-top: 85px;
-    margin-bottom: 150px;
 }
 
 .titl--3 {
@@ -158,8 +176,7 @@ footer {
     text-align: center;
     color: rgb(46, 42, 42);
     font-size: 40px;
-    padding-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 90px;
 }
 
 .titule--2 {
@@ -179,28 +196,23 @@ footer {
 }
 
 .bg-wai {
-    background-color: rgb(96, 231, 84);
+    background-image: linear-gradient(40deg, #c9d1dc 0, #c9ced9 5.56%, #c9cbd5 11.11%, #c8c8cf 16.67%, #c5c4c9 22.22%, #c1c0c2 27.78%, #bbbcbb 33.33%, #b3b7b3 38.89%, #aab2ab 44.44%, #9eada4 50%, #91a89e 55.56%, #85a39a 61.11%, #7a9f98 66.67%, #6f9b97 72.22%, #659798 77.78%, #5c9499 83.33%, #56919b 88.89%, #528f9e 94.44%, #518da0 100%);
 }
 
 .bg-lel {
-    background-color: rgb(197, 212, 60);
-}
-
-.bg-bl {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(180deg, #ffec80 0, #fbe56d 16.67%, #e4dd5b 33.33%, #cad447 50%, #afcc34 66.67%, #92c423 83.33%, #74bd15 100%);
 }
 
 .bg-pl {
     background-color: palegoldenrod;
 }
 
-.cerveza {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 0 3px 3px 0 black;
+.diav {
+    background-image: radial-gradient(circle at 23.29% 68.7%, #002f3a 0, #002a31 8.33%, #012529 16.67%, #061f20 25%, #061817 33.33%, #030f0e 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
+    padding-bottom: 25px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
 }
 
 .wave-l {
@@ -278,7 +290,7 @@ footer {
 }
 
 .camb {
-    background-color: black;
+    background-image: radial-gradient(circle at 50% -20.71%, #003549 0, #003342 6.25%, #002f3a 12.5%, #002a32 18.75%, #012529 25%, #061f20 31.25%, #061817 37.5%, #030f0e 43.75%, #000000 50%, #000000 56.25%, #000000 62.5%, #000000 68.75%, #000000 75%, #000000 81.25%, #000000 87.5%, #000000 93.75%, #000000 100%);
 }
 
 .spann {
@@ -298,4 +310,31 @@ footer {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.flech-icon {
+    background-color: rgb(0, 0, 0);
+    transform: rotate(45);
+    border: none;
+    box-shadow: 0px 0px 3px 3px white;
+    border-radius: 5px;
+    display: inline-block;
+    transform: rotate(-270deg);
+    margin: 50px 0 250px 0;
+}
+
+.flechaa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flech-icon:hover {
+    background-color: blue;
+    transition: 2s;
+}
+
+.nav-linkaso:hover {
+    border-bottom: rgb(166, 179, 57) solid;
+    transition: .2s;
 }
